@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header class changed to semantic header element. The same is true for all inheriting styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Div element changed to a nav to element to more semantically describe the usage */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,6 +43,8 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* Changed from class-specific h2 style to an element level style to be used more semantically. */
+/* Stlye moved up toward the top of the sheet for logical flow. */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -55,6 +59,7 @@ p {
     font-size: 16px;
 }
 
+/* Moved image out of the background-image style and into the actual HTML for better accessibility */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,12 +68,14 @@ p {
     background-position: center;
 }
 
+/* Replaced content class with styling for the more semantic main element. */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Replaced benefits class with styling for the more semantic section element, nested within main. */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -78,6 +85,7 @@ main section {
     color: #ffffff;
 }
 
+/* Condensed the individual classes for each image in the main, as they were redundant */
 main section img {
     max-height: 200px;
 }
@@ -92,6 +100,7 @@ main section img {
     margin-left: 25px;
 }
 
+/* Replaced benefits class with styling for the more semantic aside element. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -103,16 +112,19 @@ aside {
     background-color: #2589bd;
 }
 
+/* Condensed the individual classes for each section in the aside, as they were redundant */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Condensed the individual classes for each h3 in the aside, as they were redundant */
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Condensed the individual classes for each image in the aside, as they were redundant */
 aside section img {
     display: block;
     margin: 10px auto;
@@ -126,6 +138,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* Changed h2 element to h4 element to logically flow in accordance with header hierarchy */
+footer h4 {
     font-size: 20px;
 }
